@@ -82,7 +82,7 @@ jobs:
       - run:
           command: echo "Build do projeto terminada às $(date +%r)"
       - discord/status:
-          success_message: "Yippee"
+          success_message: "Gabs esteve aqui ^-^"
 
 # Workflows: orquestram a ordem dos jobs
 workflows:
